@@ -1,18 +1,48 @@
-<!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  Hello world
-  <div id='wrapper'></div>
-  <script src="script.js"></script>
-
-</body>
-
+  <head>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <meta name="viewport">
+    <title>Galactic Database | Home</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="galactic-header">
+      <div class="flex-center">
+        <div class="galactic-text-large">WELCOME TO THE GALACTIC INFORMATION TERMINAL</div>
+      </div>
+      <div height="5px"></div>
+      <div class="flex-center">
+        <div class="alien-text-big">INFORMATION APARATUS WELCOME</div>
+      </div>
+    </div>
+    <div class="sticky-wrapper">
+      <img src="./imgs/hamburger.png" height="5%" width="2.5%" class="hamburger"></img>
+      <div class="clip-wrapper-menu">
+        <div class="menu">
+          <div class="menu-options-wrapper" id="posts" onclick="window.location = '/index.html'">
+            <div class="menu-text">SYSTEMS</div>
+          </div>
+          <div class="menu-options-wrapper" onclick="window.location = '/index.html'">
+            <div class="menu-text">PLANETS</div>
+          </div>
+          <div class="menu-options-wrapper" onclick="window.location = '/index.html'">
+            <div class="menu-text">FACTIONS</div>
+          </div>
+          <div class="menu-options-wrapper" onclick="window.location = '/index.html'">
+            <div class="menu-text">PEOPLE</div>
+          </div>
+          <div class="menu-options-wrapper" onclick="window.location = '/index.html'">
+            <div class="menu-text">AUGMENTS</div>
+          </div>
+          <div class="menu-options-wrapper" onclick="window.location = '/index.html'">
+            <div class="menu-text"><p class="noto">NOTO</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="blur" display="none"></div>
+    </div>
+    <script type="text/javascript" src="./js/hamburger.js"></script>
+  </body>
 </html>
